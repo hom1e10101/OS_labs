@@ -1,0 +1,11 @@
+\selectlanguage *{russian}
+\contentsline {section}{\numberline {1}Условие}{2}{section.1}%
+\contentsline {section}{\numberline {2}Метод решения}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}График зависимости ускорения от количества потоков}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}График зависимости эффективности от количества потоков}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Исходный код}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Основной модуль}{4}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Логи выполнения программы}{8}{section.4}%
+\contentsline {section}{\numberline {5}Результаты}{12}{section.5}%
+\contentsline {section}{\numberline {6}Выводы}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Анализ системных вызовов}{13}{subsection.6.1}%
