@@ -1,0 +1,27 @@
+cat > .gitignore << 'EOL'
+# Build directories
+build/
+bin/
+*.o
+*.a
+*.so
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# My Files
+logs.txt
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+EOL

@@ -1,0 +1,8 @@
+\selectlanguage *{russian}
+\contentsline {section}{\numberline {1}Условие}{2}{section.1}%
+\contentsline {section}{\numberline {2}Метод решения}{3}{section.2}%
+\contentsline {section}{\numberline {3}Фрагмент кода}{3}{section.3}%
+\contentsline {section}{\numberline {4}Результаты}{9}{section.4}%
+\contentsline {section}{\numberline {5}Выводы}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Анализ системных вызовов}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Логи выполнения программы}{10}{subsection.5.2}%
