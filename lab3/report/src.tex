@@ -1,0 +1,25 @@
+\section{Метод решения}
+Данная программа реализует многопроцессную обработку текстовых данных с помощью
+shared memory:
+Ключевые компоненты:\\
+• Shared memory − Linux\\
+Системные вызовы:\\
+• Windows: CreatePipe, CreateProcess, ReadFile, WriteFile\\ 
+• Linux: pipe, fork, excel, read, write\\
+Программа обеспечивает кроссплатформенность и четкое разделение ответственности
+между модулями.
+
+\section{Фрагмент кода}
+
+% \subsection{Код родительского процесса}
+
+\textbf{os.cpp}:
+\lstinputlisting[language=C++,caption={os.cpp}]{../src/os.cpp}
+
+\textbf{Parent.cpp} - Код родительского процесса:
+\lstinputlisting[language=C++,caption={Parent.cpp}]{../src/Parent.cpp}
+
+\textbf{Child.cpp} - Код дочернего процесса:
+\lstinputlisting[language=C++,caption={Child.cpp}]{../src/Child.cpp}
+
+\pagebreak

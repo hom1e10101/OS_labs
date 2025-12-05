@@ -1,0 +1,2 @@
+279135 execve("./Parent.cpp", ["./Parent.cpp"], 0x7fff8fdf89f8 /* 90 vars */) = -1 EACCES (Permission denied)
+279135 +++ exited with 1 +++
