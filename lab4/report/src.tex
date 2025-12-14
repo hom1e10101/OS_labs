@@ -1,0 +1,49 @@
+\section{Реализация}
+\subsection{Контракт библиотек}
+Библиотеки реализуют две математические функции:
+\begin{enumerate}
+    \item \textbf{derivative\_cos(float X, float delta\_X)} — производная функции cos(X) с заданным delta\_X
+    \item \textbf{E()} — вычисление числа Эйлера (e)
+\end{enumerate}
+
+\subsection{Варианты реализации}
+Создано две библиотеки с разными алгоритмами:
+\begin{itemize}
+    \item \textbf{cos} — поиск cos(x) через ряд Тейлора и нахождение производной по формуле:\\
+    $\frac{\cos(x + \Delta x) - \cos(x)}{\Delta x}$
+    \item \textbf{e} — ряд Тейлора для вычисления e
+\end{itemize}
+
+\section{Структура проекта}
+
+\subsection{Файлы проекта}
+\begin{itemize}
+    \item cos.h — заголовочный файл с объявлением функций для поиска производной cos(x)
+    \item cos.cpp — реализация библиотеки для поиска производной cos(x)
+    \item e.h — заголовочный файл с объявлением функции для поиска числа e
+    \item prog1/main.cpp — программа со статическим связыванием
+    \item prog2/main.cpp — программа с динамической загрузкой
+    \item DynamicLoader.hpp — заголовочный файл динамического загрузчика
+    \item DynamicLoader.cpp — реализация динамического загрузчика
+\end{itemize}
+
+\section{Реализация библиотек}
+
+\subsection{библиотека для поиска производной cos (cos.h)}
+\lstinputlisting[language=C++,caption=cos.cpp]{../cos/cos.cpp}
+
+\subsection{библиотека для поиска числа е (e.h)}
+\lstinputlisting[language=C++,caption=e.cpp]{../e/e.cpp}
+
+\subsection{реализация динамического загрузчика (DynamicLoader.hpp)}
+\lstinputlisting[language=C++,caption=e.cpp]{../prog2/DynamicLoader.cpp}
+
+\section{Программа №1: Статическое связывание}
+
+\subsection{Код программы}
+\lstinputlisting[language=C++,caption=prog1/main.cpp]{../prog1/main.cpp}
+
+\section{Программа №2: Динамическая загрузка}
+
+\subsection{Код программы}
+\lstinputlisting[language=C++,caption=prog2/main.cpp]{../prog1/main.cpp}
